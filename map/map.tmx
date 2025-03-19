@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="10" height="31" tilewidth="125" tileheight="83" infinite="0" nextlayerid="20" nextobjectid="226">
+ <tileset firstgid="1" name="tiles" tilewidth="129" tileheight="129" tilecount="18" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/1.png"/>
+   <objectgroup draworder="index">
+    <object id="15" x="0" y="0" width="128" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="1" type="ground">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/2.png"/>
+  </tile>
+  <tile id="2" type="ground">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="129" height="129" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/5.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/6.png"/>
+  </tile>
+  <tile id="6" type="ground">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/7.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/8.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/9.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/10.png"/>
+  </tile>
+  <tile id="10" type="ground">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/11.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/12.png"/>
+  </tile>
+  <tile id="12" type="ground">
+   <image width="128" height="93" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/13.png"/>
+  </tile>
+  <tile id="13" type="ground">
+   <image width="128" height="93" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/14.png"/>
+  </tile>
+  <tile id="14" type="ground">
+   <image width="128" height="93" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/15.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/16.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="99" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/17.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="GAME PROGRAMMING PROGETTO/map/png/Tiles/18.png"/>
+  </tile>
+  <wangsets>
+   <wangset name="Terrains" type="corner" tile="-1">
+    <wangcolor name="New Terrain" color="#ff0000" tile="1" probability="1"/>
+   </wangset>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="19" name="objects" tilewidth="282" tileheight="301" tilecount="13" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="133" height="65" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Bush (1).png"/>
+  </tile>
+  <tile id="1">
+   <image width="133" height="65" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Bush (2).png"/>
+  </tile>
+  <tile id="2">
+   <image width="73" height="47" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Bush (3).png"/>
+  </tile>
+  <tile id="3">
+   <image width="73" height="46" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Bush (4).png"/>
+  </tile>
+  <tile id="4" type="crate">
+   <properties>
+    <property name="bodyType" value="dynamic"/>
+   </properties>
+   <image width="77" height="77" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Crate.png"/>
+  </tile>
+  <tile id="5">
+   <image width="49" height="41" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Mushroom_1.png"/>
+  </tile>
+  <tile id="6">
+   <image width="50" height="41" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Mushroom_2.png"/>
+  </tile>
+  <tile id="7">
+   <image width="63" height="65" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Sign_1.png"/>
+  </tile>
+  <tile id="8">
+   <image width="62" height="64" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Sign_2.png"/>
+  </tile>
+  <tile id="9">
+   <image width="90" height="54" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Stone.png"/>
+  </tile>
+  <tile id="10">
+   <image width="116" height="44" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Tree_1.png"/>
+  </tile>
+  <tile id="11">
+   <image width="282" height="301" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Tree_2.png"/>
+  </tile>
+  <tile id="12">
+   <image width="282" height="275" source="GAME PROGRAMMING PROGETTO/map/png/Objects/Tree_3.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="32" name="back" tilewidth="885" tileheight="1212" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="1">
+   <image width="885" height="1212" source="GAME PROGRAMMING PROGETTO/map/png/BG/background.jpg"/>
+  </tile>
+ </tileset>
+ <objectgroup id="19" name="background">
+  <object id="225" gid="33" x="0" y="2574" width="1261" height="2576"/>
+ </objectgroup>
+ <layer id="13" name="platform" width="10" height="31">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,13,14,14,15,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,13,14,15,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,13,14,14,14,14,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+14,14,14,15,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,13,14,14,15,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,13,14,14,15,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,13,14,14,14,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+14,14,14,15,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="17" name="collisionPlatforms">
+  <object id="203" type="platform" x="0.888523" y="981.536" width="497.653" height="95.4617">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="2"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="212" type="platform" x="-2.44307" y="2477.54" width="502.842" height="95.4617">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="2"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="214" type="platform" x="127.23" y="1814.8" width="497.653" height="95.4617">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="2"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="213" type="platform" x="750.696" y="2143.71" width="500.248" height="95.4617">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="2"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="204" type="platform" x="627.543" y="1406.63" width="496.088" height="89.2019">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="2"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="215" type="platform" x="625.965" y="71.8031" width="499.98" height="89.2019">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="2"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="205" type="platform" x="126.824" y="321.086" width="373.943" height="93.8967">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="2"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="216" type="platform" x="627.078" y="654.779" width="622.729" height="92.7142">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="2"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="223" type="barrier" x="1240" y="-4" width="16" height="2572">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="2"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="224" type="barrier" x="-8" y="0" width="8" height="2568">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="2"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
